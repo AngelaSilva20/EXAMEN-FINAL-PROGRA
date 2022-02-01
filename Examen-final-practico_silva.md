@@ -26,6 +26,26 @@ Tiemp_conc(1200, 135)
 
 ##Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
 #more columns than column names
+
+gbif <- read.delim("D:/4to ciclo/PROGRANACIÓN/examen final/gbif_peru.csv") 
+library(dplyr)
+```
+
+    ## Warning: package 'dplyr' was built under R version 4.1.2
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+``` r
+View(gbif)
 ```
 
 # 15 Shapefile subcuencas

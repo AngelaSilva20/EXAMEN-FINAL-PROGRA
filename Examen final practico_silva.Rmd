@@ -32,6 +32,10 @@ Tiemp_conc(1200, 135)
 ##Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
 #more columns than column names
 
+gbif <- read.delim("D:/4to ciclo/PROGRANACIÓN/examen final/gbif_peru.csv") 
+library(dplyr)
+View(gbif)
+
 
 ```
 
