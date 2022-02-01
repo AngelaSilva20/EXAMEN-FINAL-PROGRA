@@ -18,7 +18,10 @@ View(airquality)
 
 
 #13 - 14 
-read.csv("D:/4to ciclo/PROGRANACIÓN/examen final/gbif_peru.csv") 
+gbif <- read.delim("D:/4to ciclo/PROGRANACIÓN/examen final/gbif_peru.csv") 
+library(dplyr)
+View(gbif)
+
 
 ##Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
 #more columns than column names
